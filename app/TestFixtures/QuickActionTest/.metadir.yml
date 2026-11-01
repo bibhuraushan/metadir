@@ -1,0 +1,19 @@
+version: 1
+title: Quick Action Test
+summary: An unmonitored folder used to verify the Finder Quick Action.
+owner: FolderMeta Developer
+status: active
+created: "2026-10-31"
+updated: "2026-10-31"
+
+tags:
+  - test
+  - Quick Action
+
+notes: |
+  If this metadata appears, FolderMeta can open folders
+  outside the Finder Sync monitored root.
+
+custom:
+  integration: Finder Quick Action
+  expected_result: success

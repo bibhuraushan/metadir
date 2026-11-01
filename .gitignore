@@ -60,3 +60,77 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+.DS_Store
+DerivedData/
+*.xcuserstate
+xcuserdata/
+# macOS filesystem metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode user-specific state
+DerivedData/
+**/DerivedData/
+xcuserdata/
+**/xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Xcode build and test output
+app/build/
+app/build-tests/
+build/
+Build/
+*.xcresult
+*.xcarchive
+*.dSYM
+*.dSYM.zip
+
+# Swift Package Manager output and local workspace state
+.build/
+**/.build/
+.swiftpm/
+**/.swiftpm/
+
+# Generated distribution artifacts
+app/dist/
+dist/
+*.dmg
+*.pkg
+*.zip
+
+# Machine-specific Finder Sync configuration
+# Keep a sanitized example file in Git if paths need to be documented.
+app/LocalMonitoredRoots.yml
+app/MetaDirFinderSync/GeneratedLocalRoots.swift
+app/MetaDirFinderSync/MetaDirFinderSync.entitlements
+
+# Editors and temporary files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local logs and temporary output
+*.log
+*.tmp
+*.temp
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.p12
+*.cer
+*.key
+*.pem
+*.mobileprovision
+*.provisionprofile
+*.keychain
+*.keychain-db

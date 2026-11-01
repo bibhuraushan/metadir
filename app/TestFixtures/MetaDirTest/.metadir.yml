@@ -1,0 +1,24 @@
+version: 1
+title: FolderMeta Test Project
+summary: Dummy folder used to test FolderMeta.
+owner: FolderMeta Developer
+status: active
+created: "2026-10-30"
+updated: "2026-10-30"
+
+tags:
+  - test
+  - macOS
+  - metadata
+
+links:
+  - label: Project website
+    url: https://example.com
+
+notes: |
+  This folder is safe to use while developing
+  and testing the Finder integrations.
+
+custom:
+  department: Research
+  priority: High

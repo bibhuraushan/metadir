@@ -1,0 +1,24 @@
+version: 1
+title: Nested Metadata Example
+summary: A nested folder used to verify the Finder command successfully loads metadata.
+owner: FolderMeta Developer
+status: active
+created: "2026-10-30"
+updated: "2026-10-30"
+
+tags:
+  - test
+  - Finder
+  - metadata
+
+links:
+  - label: Example website
+    url: https://example.com
+
+notes: |
+  If this text appears in FolderMeta, the Finder-to-app
+  handoff and YAML loading are both working.
+
+custom:
+  test_case: nested-folder
+  expected_result: success

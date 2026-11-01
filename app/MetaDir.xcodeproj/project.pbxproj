@@ -1,0 +1,164 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100000000000000000000001 /* MetaDirApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000001 /* MetaDirApp.swift */; };
+		100000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000002 /* ContentView.swift */; };
+		100000000000000000000003 /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000003 /* FinderSync.swift */; };
+		100000000000000000000004 /* MetaDirCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000004 /* MetaDirCore.swift */; };
+		100000000000000000000005 /* MetaDirCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200000000000000000000008 /* MetaDirCore.framework */; };
+		100000000000000000000006 /* MetaDirCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200000000000000000000008 /* MetaDirCore.framework */; };
+		100000000000000000000007 /* MetaDirCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000005 /* MetaDirCoreTests.swift */; };
+		100000000000000000000008 /* MetaDirCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200000000000000000000008 /* MetaDirCore.framework */; };
+		100000000000000000000009 /* MetaDirFinderSync.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 200000000000000000000007 /* MetaDirFinderSync.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		10000000000000000000000A /* MetaDirCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000004 /* MetaDirCore.swift */; };
+		10000000000000000000000B /* MetaDirMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000D /* MetaDirMetadata.swift */; };
+		10000000000000000000000C /* MetaDirMetadataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000E /* MetaDirMetadataLoader.swift */; };
+		10000000000000000000000D /* MetaDirMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000D /* MetaDirMetadata.swift */; };
+		10000000000000000000000E /* MetaDirMetadataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000E /* MetaDirMetadataLoader.swift */; };
+		10000000000000000000000F /* Yams in Frameworks */ = {isa = PBXBuildFile; productRef = E00000000000000000000001 /* Yams */; };
+		100000000000000000000010 /* Yams in Frameworks */ = {isa = PBXBuildFile; productRef = E00000000000000000000002 /* Yams */; };
+		100000000000000000000011 /* MetaDirCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 200000000000000000000008 /* MetaDirCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		100000000000000000000012 /* MetadataDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000F /* MetadataDetailView.swift */; };
+		100000000000000000000013 /* MonitoredRootRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000010 /* MonitoredRootRules.swift */; };
+		100000000000000000000014 /* MonitoredRootRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000010 /* MonitoredRootRules.swift */; };
+		100000000000000000000015 /* MonitoredFolderStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000011 /* MonitoredFolderStore.swift */; };
+		100000000000000000000016 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000012 /* SettingsView.swift */; };
+		100000000000000000000017 /* MetaDirRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000013 /* MetaDirRequest.swift */; };
+		100000000000000000000018 /* MetaDirRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000013 /* MetaDirRequest.swift */; };
+		100000000000000000000019 /* MetadataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000014 /* MetadataViewModel.swift */; };
+		10000000000000000000001A /* QuickActionRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000016 /* QuickActionRequestHandler.swift */; };
+		10000000000000000000001B /* MetaDirCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200000000000000000000008 /* MetaDirCore.framework */; };
+		10000000000000000000001C /* MetaDirQuickAction.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 200000000000000000000019 /* MetaDirQuickAction.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		10000000000000000000001D /* GeneratedLocalRoots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000001A /* GeneratedLocalRoots.swift */; };
+		10000000000000000000001E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000001B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		300000000000000000000001 = {isa = PBXContainerItemProxy; containerPortal = 900000000000000000000001 /* Project object */; proxyType = 1; remoteGlobalIDString = A00000000000000000000002; remoteInfo = MetaDirFinderSync; };
+		300000000000000000000002 = {isa = PBXContainerItemProxy; containerPortal = 900000000000000000000001 /* Project object */; proxyType = 1; remoteGlobalIDString = A00000000000000000000003; remoteInfo = MetaDirCore; };
+		300000000000000000000003 = {isa = PBXContainerItemProxy; containerPortal = 900000000000000000000001 /* Project object */; proxyType = 1; remoteGlobalIDString = A00000000000000000000005; remoteInfo = MetaDirQuickAction; };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		400000000000000000000001 /* Embed App Extensions */ = {isa = PBXCopyFilesBuildPhase; buildActionMask = 2147483647; dstPath = ""; dstSubfolderSpec = 13; files = (100000000000000000000009 /* MetaDirFinderSync.appex in Embed App Extensions */, 10000000000000000000001C /* MetaDirQuickAction.appex in Embed App Extensions */, ); name = "Embed App Extensions"; runOnlyForDeploymentPostprocessing = 0; };
+		400000000000000000000002 /* Embed Frameworks */ = {isa = PBXCopyFilesBuildPhase; buildActionMask = 2147483647; dstPath = ""; dstSubfolderSpec = 10; files = (100000000000000000000011 /* MetaDirCore.framework in Embed Frameworks */, ); name = "Embed Frameworks"; runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		200000000000000000000001 /* MetaDirApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaDirApp.swift; sourceTree = "<group>"; };
+		200000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		200000000000000000000003 /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
+		200000000000000000000004 /* MetaDirCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaDirCore.swift; sourceTree = "<group>"; };
+		200000000000000000000005 /* MetaDirCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaDirCoreTests.swift; sourceTree = "<group>"; };
+		200000000000000000000006 /* MetaDir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaDir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		200000000000000000000007 /* MetaDirFinderSync.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MetaDirFinderSync.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		200000000000000000000008 /* MetaDirCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MetaDirCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		200000000000000000000009 /* MetaDirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetaDirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20000000000000000000000A /* MetaDir.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MetaDir.entitlements; sourceTree = "<group>"; };
+		20000000000000000000000B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20000000000000000000000C /* MetaDirFinderSync.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MetaDirFinderSync.entitlements; sourceTree = "<group>"; };
+		20000000000000000000000D /* MetaDirMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaDirMetadata.swift; sourceTree = "<group>"; };
+		20000000000000000000000E /* MetaDirMetadataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaDirMetadataLoader.swift; sourceTree = "<group>"; };
+		20000000000000000000000F /* MetadataDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataDetailView.swift; sourceTree = "<group>"; };
+		200000000000000000000010 /* MonitoredRootRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoredRootRules.swift; sourceTree = "<group>"; };
+		200000000000000000000011 /* MonitoredFolderStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoredFolderStore.swift; sourceTree = "<group>"; };
+		200000000000000000000012 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		200000000000000000000013 /* MetaDirRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaDirRequest.swift; sourceTree = "<group>"; };
+		200000000000000000000014 /* MetadataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataViewModel.swift; sourceTree = "<group>"; };
+		200000000000000000000015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		200000000000000000000016 /* QuickActionRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickActionRequestHandler.swift; sourceTree = "<group>"; };
+		200000000000000000000017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		200000000000000000000018 /* MetaDirQuickAction.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MetaDirQuickAction.entitlements; sourceTree = "<group>"; };
+		200000000000000000000019 /* MetaDirQuickAction.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MetaDirQuickAction.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		20000000000000000000001A /* GeneratedLocalRoots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedLocalRoots.swift; sourceTree = "<group>"; };
+		20000000000000000000001B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		500000000000000000000001 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (100000000000000000000005 /* MetaDirCore.framework in Frameworks */, ); runOnlyForDeploymentPostprocessing = 0; };
+		500000000000000000000002 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (100000000000000000000006 /* MetaDirCore.framework in Frameworks */, ); runOnlyForDeploymentPostprocessing = 0; };
+		500000000000000000000003 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (10000000000000000000000F /* Yams in Frameworks */, ); runOnlyForDeploymentPostprocessing = 0; };
+		500000000000000000000004 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (100000000000000000000008 /* MetaDirCore.framework in Frameworks */, 100000000000000000000010 /* Yams in Frameworks */, ); runOnlyForDeploymentPostprocessing = 0; };
+		500000000000000000000005 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (10000000000000000000001B /* MetaDirCore.framework in Frameworks */, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		600000000000000000000001 = {isa = PBXGroup; children = (600000000000000000000002 /* MetaDir */, 600000000000000000000003 /* MetaDirCore */, 600000000000000000000004 /* MetaDirFinderSync */, 600000000000000000000007 /* MetaDirQuickAction */, 600000000000000000000005 /* MetaDirTests */, 600000000000000000000006 /* Products */, ); sourceTree = "<group>"; };
+		600000000000000000000002 /* MetaDir */ = {isa = PBXGroup; children = (200000000000000000000001 /* MetaDirApp.swift */, 200000000000000000000002 /* ContentView.swift */, 20000000000000000000000F /* MetadataDetailView.swift */, 200000000000000000000014 /* MetadataViewModel.swift */, 200000000000000000000011 /* MonitoredFolderStore.swift */, 200000000000000000000012 /* SettingsView.swift */, 20000000000000000000001B /* Assets.xcassets */, 200000000000000000000015 /* Info.plist */, 20000000000000000000000A /* MetaDir.entitlements */, ); path = MetaDir; sourceTree = "<group>"; };
+		600000000000000000000003 /* MetaDirCore */ = {isa = PBXGroup; children = (200000000000000000000004 /* MetaDirCore.swift */, 20000000000000000000000D /* MetaDirMetadata.swift */, 20000000000000000000000E /* MetaDirMetadataLoader.swift */, 200000000000000000000013 /* MetaDirRequest.swift */, 200000000000000000000010 /* MonitoredRootRules.swift */, ); path = MetaDirCore; sourceTree = "<group>"; };
+		600000000000000000000004 /* MetaDirFinderSync */ = {isa = PBXGroup; children = (200000000000000000000003 /* FinderSync.swift */, 20000000000000000000001A /* GeneratedLocalRoots.swift */, 20000000000000000000000B /* Info.plist */, 20000000000000000000000C /* MetaDirFinderSync.entitlements */, ); path = MetaDirFinderSync; sourceTree = "<group>"; };
+		600000000000000000000005 /* MetaDirTests */ = {isa = PBXGroup; children = (200000000000000000000005 /* MetaDirCoreTests.swift */, ); path = MetaDirTests; sourceTree = "<group>"; };
+		600000000000000000000006 /* Products */ = {isa = PBXGroup; children = (200000000000000000000006 /* MetaDir.app */, 200000000000000000000007 /* MetaDirFinderSync.appex */, 200000000000000000000019 /* MetaDirQuickAction.appex */, 200000000000000000000008 /* MetaDirCore.framework */, 200000000000000000000009 /* MetaDirTests.xctest */, ); name = Products; sourceTree = "<group>"; };
+		600000000000000000000007 /* MetaDirQuickAction */ = {isa = PBXGroup; children = (200000000000000000000016 /* QuickActionRequestHandler.swift */, 200000000000000000000017 /* Info.plist */, 200000000000000000000018 /* MetaDirQuickAction.entitlements */, ); path = MetaDirQuickAction; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000001 /* MetaDir */ = {isa = PBXNativeTarget; buildConfigurationList = B00000000000000000000001; buildPhases = (700000000000000000000001, 500000000000000000000001, 710000000000000000000001, 400000000000000000000002, 400000000000000000000001, ); buildRules = (); dependencies = (800000000000000000000001, 800000000000000000000002, 800000000000000000000003, ); name = MetaDir; productName = MetaDir; productReference = 200000000000000000000006 /* MetaDir.app */; productType = "com.apple.product-type.application"; };
+		A00000000000000000000002 /* MetaDirFinderSync */ = {isa = PBXNativeTarget; buildConfigurationList = B00000000000000000000002; buildPhases = (700000000000000000000002, 500000000000000000000002, ); buildRules = (); dependencies = (800000000000000000000002, ); name = MetaDirFinderSync; productName = MetaDirFinderSync; productReference = 200000000000000000000007 /* MetaDirFinderSync.appex */; productType = "com.apple.product-type.app-extension"; };
+		A00000000000000000000003 /* MetaDirCore */ = {isa = PBXNativeTarget; buildConfigurationList = B00000000000000000000003; buildPhases = (700000000000000000000003, 500000000000000000000003, ); buildRules = (); dependencies = (); name = MetaDirCore; packageProductDependencies = (E00000000000000000000001 /* Yams */, ); productName = MetaDirCore; productReference = 200000000000000000000008 /* MetaDirCore.framework */; productType = "com.apple.product-type.framework"; };
+		A00000000000000000000004 /* MetaDirTests */ = {isa = PBXNativeTarget; buildConfigurationList = B00000000000000000000004; buildPhases = (700000000000000000000004, 500000000000000000000004, ); buildRules = (); dependencies = (800000000000000000000002, ); name = MetaDirTests; packageProductDependencies = (E00000000000000000000002 /* Yams */, ); productName = MetaDirTests; productReference = 200000000000000000000009 /* MetaDirTests.xctest */; productType = "com.apple.product-type.bundle.unit-test"; };
+		A00000000000000000000005 /* MetaDirQuickAction */ = {isa = PBXNativeTarget; buildConfigurationList = B00000000000000000000005; buildPhases = (700000000000000000000005, 500000000000000000000005, ); buildRules = (); dependencies = (800000000000000000000002, ); name = MetaDirQuickAction; productName = MetaDirQuickAction; productReference = 200000000000000000000019 /* MetaDirQuickAction.appex */; productType = "com.apple.product-type.app-extension"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		900000000000000000000001 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 2720; LastUpgradeCheck = 2720; TargetAttributes = {A00000000000000000000001 = {CreatedOnToolsVersion = 27.2; }; A00000000000000000000002 = {CreatedOnToolsVersion = 27.2; }; A00000000000000000000003 = {CreatedOnToolsVersion = 27.2; }; A00000000000000000000004 = {CreatedOnToolsVersion = 27.2; TestTargetID = A00000000000000000000001; }; A00000000000000000000005 = {CreatedOnToolsVersion = 27.2; }; }; }; buildConfigurationList = B00000000000000000000000; compatibilityVersion = "Xcode 15.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base, ); mainGroup = 600000000000000000000001; packageReferences = (D00000000000000000000001 /* XCRemoteSwiftPackageReference \"Yams\" */, ); productRefGroup = 600000000000000000000006 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (A00000000000000000000001, A00000000000000000000002, A00000000000000000000003, A00000000000000000000004, A00000000000000000000005, ); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		710000000000000000000001 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (10000000000000000000001E /* Assets.xcassets in Resources */, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		700000000000000000000001 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (100000000000000000000001, 100000000000000000000002, 100000000000000000000012, 100000000000000000000015, 100000000000000000000016, 100000000000000000000019, ); runOnlyForDeploymentPostprocessing = 0; };
+		700000000000000000000002 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (100000000000000000000003, 10000000000000000000001D, ); runOnlyForDeploymentPostprocessing = 0; };
+		700000000000000000000003 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (100000000000000000000004, 10000000000000000000000B, 10000000000000000000000C, 100000000000000000000013, 100000000000000000000017, ); runOnlyForDeploymentPostprocessing = 0; };
+		700000000000000000000004 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (100000000000000000000007, 10000000000000000000000A, 10000000000000000000000D, 10000000000000000000000E, 100000000000000000000014, 100000000000000000000018, ); runOnlyForDeploymentPostprocessing = 0; };
+		700000000000000000000005 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (10000000000000000000001A, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D00000000000000000000001 /* XCRemoteSwiftPackageReference "Yams" */ = {isa = XCRemoteSwiftPackageReference; repositoryURL = "https://github.com/jpsim/Yams.git"; requirement = {kind = upToNextMajorVersion; minimumVersion = 6.2.2; }; };
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E00000000000000000000001 /* Yams */ = {isa = XCSwiftPackageProductDependency; package = D00000000000000000000001 /* XCRemoteSwiftPackageReference "Yams" */; productName = Yams; };
+		E00000000000000000000002 /* Yams */ = {isa = XCSwiftPackageProductDependency; package = D00000000000000000000001 /* XCRemoteSwiftPackageReference "Yams" */; productName = Yams; };
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin PBXTargetDependency section */
+		800000000000000000000001 = {isa = PBXTargetDependency; target = A00000000000000000000002; targetProxy = 300000000000000000000001; };
+		800000000000000000000002 = {isa = PBXTargetDependency; target = A00000000000000000000003; targetProxy = 300000000000000000000002; };
+		800000000000000000000003 = {isa = PBXTargetDependency; target = A00000000000000000000005; targetProxy = 300000000000000000000003; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C00000000000000000000001 = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; ENABLE_HARDENED_RUNTIME = YES; MACOSX_DEPLOYMENT_TARGET = 14.0; ONLY_ACTIVE_ARCH = YES; SDKROOT = macosx; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; SWIFT_VERSION = 6.0; }; name = Debug; };
+		C00000000000000000000002 = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; ENABLE_HARDENED_RUNTIME = NO; MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_VERSION = 6.0; }; name = Release; };
+		C00000000000000000000003 = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_ENTITLEMENTS = MetaDir/MetaDir.entitlements; CODE_SIGN_IDENTITY = "-"; CODE_SIGNING_ALLOWED = YES; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = MetaDir/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.MetaDir; PRODUCT_NAME = MetaDir; SWIFT_EMIT_LOC_STRINGS = YES; }; name = Debug; };
+		C00000000000000000000004 = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_ENTITLEMENTS = MetaDir/MetaDir.entitlements; CODE_SIGN_IDENTITY = "-"; CODE_SIGNING_ALLOWED = YES; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = MetaDir/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.MetaDir; PRODUCT_NAME = MetaDir; SWIFT_EMIT_LOC_STRINGS = YES; }; name = Release; };
+		C00000000000000000000005 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_ENTITLEMENTS = MetaDirFinderSync/MetaDirFinderSync.entitlements; CODE_SIGN_IDENTITY = "-"; CODE_SIGNING_ALLOWED = YES; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = MetaDirFinderSync/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../../../../Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.MetaDir.FinderSync; PRODUCT_NAME = "$(TARGET_NAME)"; SKIP_INSTALL = YES; }; name = Debug; };
+		C00000000000000000000006 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_ENTITLEMENTS = MetaDirFinderSync/MetaDirFinderSync.entitlements; CODE_SIGN_IDENTITY = "-"; CODE_SIGNING_ALLOWED = YES; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = MetaDirFinderSync/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../../../../Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.MetaDir.FinderSync; PRODUCT_NAME = "$(TARGET_NAME)"; SKIP_INSTALL = YES; }; name = Release; };
+		C00000000000000000000007 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGNING_ALLOWED = NO; DEFINES_MODULE = YES; DYLIB_COMPATIBILITY_VERSION = 1; DYLIB_CURRENT_VERSION = 1; DYLIB_INSTALL_NAME_BASE = "@rpath"; GENERATE_INFOPLIST_FILE = YES; INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.MetaDirCore; PRODUCT_NAME = "$(TARGET_NAME)"; SKIP_INSTALL = YES; }; name = Debug; };
+		C00000000000000000000008 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGNING_ALLOWED = NO; DEFINES_MODULE = YES; DYLIB_COMPATIBILITY_VERSION = 1; DYLIB_CURRENT_VERSION = 1; DYLIB_INSTALL_NAME_BASE = "@rpath"; GENERATE_INFOPLIST_FILE = YES; INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.MetaDirCore; PRODUCT_NAME = "$(TARGET_NAME)"; SKIP_INSTALL = YES; }; name = Release; };
+		C00000000000000000000009 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGNING_ALLOWED = NO; GENERATE_INFOPLIST_FILE = YES; PRODUCT_BUNDLE_IDENTIFIER = com.example.MetaDirTests; PRODUCT_NAME = "$(TARGET_NAME)"; }; name = Debug; };
+		C0000000000000000000000A = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGNING_ALLOWED = NO; GENERATE_INFOPLIST_FILE = YES; PRODUCT_BUNDLE_IDENTIFIER = com.example.MetaDirTests; PRODUCT_NAME = "$(TARGET_NAME)"; }; name = Release; };
+		C0000000000000000000000B = {isa = XCBuildConfiguration; buildSettings = {APPLICATION_EXTENSION_API_ONLY = YES; CODE_SIGN_ENTITLEMENTS = MetaDirQuickAction/MetaDirQuickAction.entitlements; CODE_SIGN_IDENTITY = "-"; CODE_SIGNING_ALLOWED = YES; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = MetaDirQuickAction/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../../../../Frameworks"; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.MetaDir.QuickAction; PRODUCT_NAME = "$(TARGET_NAME)"; SKIP_INSTALL = YES; }; name = Debug; };
+		C0000000000000000000000C = {isa = XCBuildConfiguration; buildSettings = {APPLICATION_EXTENSION_API_ONLY = YES; CODE_SIGN_ENTITLEMENTS = MetaDirQuickAction/MetaDirQuickAction.entitlements; CODE_SIGN_IDENTITY = "-"; CODE_SIGNING_ALLOWED = YES; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = MetaDirQuickAction/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../../../../Frameworks"; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.MetaDir.QuickAction; PRODUCT_NAME = "$(TARGET_NAME)"; SKIP_INSTALL = YES; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B00000000000000000000000 = {isa = XCConfigurationList; buildConfigurations = (C00000000000000000000001, C00000000000000000000002, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		B00000000000000000000001 = {isa = XCConfigurationList; buildConfigurations = (C00000000000000000000003, C00000000000000000000004, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		B00000000000000000000002 = {isa = XCConfigurationList; buildConfigurations = (C00000000000000000000005, C00000000000000000000006, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		B00000000000000000000003 = {isa = XCConfigurationList; buildConfigurations = (C00000000000000000000007, C00000000000000000000008, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		B00000000000000000000004 = {isa = XCConfigurationList; buildConfigurations = (C00000000000000000000009, C0000000000000000000000A, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		B00000000000000000000005 = {isa = XCConfigurationList; buildConfigurations = (C0000000000000000000000B, C0000000000000000000000C, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 900000000000000000000001 /* Project object */;
+}
