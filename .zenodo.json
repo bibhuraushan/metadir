@@ -1,0 +1,28 @@
+{
+  "title": "MetaDir: Local Directory Metadata for macOS",
+  "upload_type": "software",
+  "description": "<p>MetaDir is a Swift-first macOS application and command-line tool for displaying, creating, editing, and validating structured directory metadata stored in local <code>.metadir.yml</code> files.</p><p>The application provides Finder Sync and Finder Quick Action integration. It operates locally, does not recursively scan directory contents, does not access the internet, and treats metadata links as copy-only.</p><p>MetaDir was developed with assistance from OpenAI/ChatGPT Model 5.6 Sol.</p>",
+  "creators": [
+    {
+      "name": "Bibhuti Kumar Jha",
+      "affiliation": "SwRI, Boulder",
+      "orcid": "0000-0003-3191-4625"
+    }
+  ],
+  "version": "1.0.0",
+  "language": "eng",
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "macOS",
+    "Swift",
+    "SwiftUI",
+    "Finder Sync",
+    "Finder Quick Action",
+    "directory metadata",
+    "YAML",
+    "command-line tool",
+    "local-first",
+    "privacy"
+  ]
+}
